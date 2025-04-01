@@ -17,21 +17,36 @@ API desenvolvida em FastAPI para busca de operadoras de saúde com base no **Reg
 
 ## 🚀 Como Executar
 
+
 1. **Clone o repositório**:
    ```sh
-   1. Clone o repositório:
    git clone https://github.com/seu-usuario/operadoras-api.git
-   2. Crie um ambiente virtual e ative:
    cd operadoras-api
+   
    python -m venv venv
    venv\Scripts\activate   
    3. Instale as dependências:
-   pip install -r requirements.txt
+   
    4. Inicie a API:
    uvicorn backend.main:app --reload
    5. Acesse a API via Swagger UI:
    👉 http://127.0.0.1:8000/docs
-   
+
+2. **Crie um ambiente virtual e ative:**:
+```sh
+    python -m venv venv
+    venv\Scripts\activate
+```
+3. **Instale as dependências:**:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. **Inicie a API:**:
+   ```sh
+   uvicorn backend.main:app --reload
+5. **Acesse a API via Swagger UI: **:
+   ```sh
+    👉 http://127.0.0.1:8000/docs
    
 📜 Endpoints
 
